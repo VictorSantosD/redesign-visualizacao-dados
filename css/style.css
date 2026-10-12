@@ -1,15 +1,15 @@
 /* Estilo simples, sem bibliotecas visuais externas. */
 :root {
-  --texto: #24272d;
+  --texto: #fcfdff;
   --cinza: #626973;
-  --borda: #dce0e5;
-  --fundo: #f7f8fa;
+  --borda: #67696b;
+  --fundo: #2c2d2f;
   --azul: #1e5d9a;
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 22px; }
-body { margin: 0; background: #fff; color: var(--texto); font: 16px/1.5 Arial, sans-serif; }
+body { margin: 0; background: #242222; color: var(--texto); font: 16px/1.5 Arial, sans-serif; }
 .container { width: min(100% - 40px, 980px); margin: auto; }
 
 /* Cabeçalho e links que levam diretamente a cada caso. */
