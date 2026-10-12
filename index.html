@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redesign de Visualizações de Dados</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Biblioteca utilizada para construir os seis gráficos. -->
+  <script defer src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+
+  <!-- Cada integrante pode atualizar as informações do próprio caso. -->
+  <script defer src="js/bigmac/info.js"></script>
+  <script defer src="js/caso2/info.js"></script>
+  <script defer src="js/caso3/info.js"></script>
+  <script defer src="js/app.js"></script>
+
+  <!-- Os arquivos de gráficos já estão conectados à página. -->
+  <script defer src="js/bigmac/designA.js"></script>
+  <script defer src="js/bigmac/designB.js"></script>
+  <script defer src="js/caso2/designA.js"></script>
+  <script defer src="js/caso2/designB.js"></script>
+  <script defer src="js/caso3/designA.js"></script>
+  <script defer src="js/caso3/designB.js"></script>
+</head>
+<body>
+  <header class="topo">
+    <div class="container">
+      <h1>Redesign de Visualizações de Dados</h1>
+      <nav aria-label="Navegação entre os casos">
+        <a href="#bigmac">Caso 1</a>
+        <a href="#caso2">Caso 2</a>
+        <a href="#caso3">Caso 3</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Caso 1: cada visualização tem original, Design A e Design B. -->
+    <section class="caso" id="bigmac" aria-labelledby="bigmac-titulo">
+      <h2 id="bigmac-titulo">Caso 1 — Global Big Mac Index</h2>
+      <p class="fonte" id="bigmac-fonte"></p>
+      <article class="bloco">
+        <h3>Visualização original</h3>
+        <div class="original" id="bigmac-original">Imagem original ainda não adicionada.</div>
+      </article>
+      <article class="bloco">
+        <h3>Design A</h3>
+        <div class="grafico" id="bigmac-designA" data-espera="Gráfico em D3.js a implementar"></div>
+      </article>
+      <article class="bloco">
+        <h3>Design B</h3>
+        <div class="grafico" id="bigmac-designB" data-espera="Gráfico em D3.js a implementar"></div>
+      </article>
+    </section>
+
+    <!-- Caso 2: os IDs são usados nos scripts deste integrante. -->
+    <section class="caso" id="caso2" aria-labelledby="caso2-titulo">
+      <h2 id="caso2-titulo">Caso 2 — A definir</h2>
+      <p class="fonte" id="caso2-fonte"></p>
+      <article class="bloco">
+        <h3>Visualização original</h3>
+        <div class="original" id="caso2-original">Imagem original ainda não adicionada.</div>
+      </article>
+      <article class="bloco">
+        <h3>Design A</h3>
+        <div class="grafico" id="caso2-designA" data-espera="Gráfico em D3.js a implementar"></div>
+      </article>
+      <article class="bloco">
+        <h3>Design B</h3>
+        <div class="grafico" id="caso2-designB" data-espera="Gráfico em D3.js a implementar"></div>
+      </article>
+    </section>
+
+    <!-- Caso 3: mesma organização dos anteriores. -->
+    <section class="caso" id="caso3" aria-labelledby="caso3-titulo">
+      <h2 id="caso3-titulo">Caso 3 — A definir</h2>
+      <p class="fonte" id="caso3-fonte"></p>
+      <article class="bloco">
+        <h3>Visualização original</h3>
+        <div class="original" id="caso3-original">Imagem original ainda não adicionada.</div>
+      </article>
+      <article class="bloco">
+        <h3>Design A</h3>
+        <div class="grafico" id="caso3-designA" data-espera="Gráfico em D3.js a implementar"></div>
+      </article>
+      <article class="bloco">
+        <h3>Design B</h3>
+        <div class="grafico" id="caso3-designB" data-espera="Gráfico em D3.js a implementar"></div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
