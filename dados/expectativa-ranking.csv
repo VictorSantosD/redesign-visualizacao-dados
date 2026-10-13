@@ -1,0 +1,21 @@
+pais,codigo,expectativa,grupo,ordem
+Monaco,MCO,87.0,maiores,1
+Hong Kong,HKG,86.0,maiores,2
+San Marino,SMR,86.0,maiores,3
+Japan,JPN,85.0,maiores,4
+Saint Barthélemy,BLM,85.0,maiores,5
+South Korea,KOR,85.0,maiores,6
+Andorra,AND,84.0,maiores,7
+Australia,AUS,84.0,maiores,8
+France,FRA,84.0,maiores,9
+French Polynesia,PYF,84.0,maiores,10
+Chad,TCD,55.0,menores,1
+Nigeria,NGA,55.0,menores,2
+Central African Republic,CAF,58.0,menores,3
+Lesotho,LSO,58.0,menores,4
+South Sudan,SSD,58.0,menores,5
+Somalia,SOM,59.0,menores,6
+Benin,BEN,61.0,menores,7
+Burkina Faso,BFA,61.0,menores,8
+Guinea,GIN,61.0,menores,9
+Mali,MLI,61.0,menores,10
