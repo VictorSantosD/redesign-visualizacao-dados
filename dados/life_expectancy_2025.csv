@@ -1,0 +1,239 @@
+rank,country,iso_code,life_expectancy_2025
+1,Monaco,MCO,87
+2,San Marino,SMR,86
+3,Hong Kong,HKG,86
+4,Japan,JPN,85
+5,South Korea,KOR,85
+6,Saint Barthélemy,BLM,85
+7,Andorra,AND,84
+8,French Polynesia,PYF,84
+9,Switzerland,CHE,84
+10,Australia,AUS,84
+11,Italy,ITA,84
+12,Singapore,SGP,84
+13,Spain,ESP,84
+14,Liechtenstein,LIE,84
+15,Réunion,REU,84
+16,Gibraltar,GIB,84
+17,Malta,MLT,84
+18,Norway,NOR,84
+19,France,FRA,84
+20,Sweden,SWE,84
+21,Guernsey,GGY,84
+22,Macao,MAC,83
+23,Holy See,VAT,83
+24,UAE,ARE,83
+25,Iceland,ISL,83
+26,Martinique,MTQ,83
+27,Canada,CAN,83
+28,Israel,ISR,83
+29,Ireland,IRL,83
+30,Portugal,PRT,83
+31,Qatar,QAT,83
+32,Bermuda,BMU,83
+33,Luxembourg,LUX,82
+34,Netherlands,NLD,82
+35,Belgium,BEL,82
+36,Guadeloupe,GLP,82
+37,New Zealand,NZL,82
+38,Austria,AUT,82
+39,Denmark,DNK,82
+40,Finland,FIN,82
+41,Greece,GRC,82
+42,Puerto Rico,PRI,82
+43,Cyprus,CYP,82
+44,Slovenia,SVN,82
+45,Germany,DEU,82
+46,UK,GBR,82
+47,Bahrain,BHR,82
+48,Chile,CHL,82
+49,Maldives,MDV,82
+50,Isle of Man,IMN,81
+51,Costa Rica,CRI,81
+52,Taiwan,TWN,81
+53,Kuwait,KWT,81
+54,Cayman Islands,CYM,81
+55,Saint Martin,MAF,81
+56,Faroe Islands,FRO,81
+57,Oman,OMN,80
+58,Czechia,CZE,80
+59,Jersey,JEY,80
+60,Panama,PAN,80
+61,Albania,ALB,80
+62,Anguilla,AIA,80
+63,U.S.,USA,80
+64,Falkland Islands,FLK,80
+65,Estonia,EST,79
+66,Saudi Arabia,SAU,79
+67,Northern Mariana Islands,MNP,79
+68,New Caledonia,NCL,79
+69,Poland,POL,79
+70,Croatia,HRV,79
+71,Wallis & Futuna Islands,WLF,79
+72,Slovakia,SVK,79
+73,Uruguay,URY,78
+74,Cuba,CUB,78
+75,Kosovo,XKX,78
+76,China,CHN,78
+77,Turks & Caicos Islands,TCA,78
+78,Bosnia & Herzegovina,BIH,78
+79,Jordan,JOR,78
+80,Peru,PER,78
+81,Colombia,COL,78
+82,Lebanon,LBN,78
+83,Iran,IRN,78
+84,Antigua and Barbuda,ATG,78
+85,Sri Lanka,LKA,78
+86,Türkiye,TUR,78
+87,Bonaire,BES,78
+88,Ecuador,ECU,78
+89,Argentina,ARG,78
+90,North Macedonia,MKD,78
+91,Guam,GUM,78
+92,British Virgin Islands,VGB,78
+93,Polynesia (no emoji available),POL,78
+94,Montenegro,MNE,77
+95,French Guiana,GUF,77
+96,Hungary,HUN,77
+97,Tokelau,TKL,77
+98,Curaçao,CUW,77
+99,Serbia,SRB,77
+100,Saint Helena,SHN,77
+101,Saint Pierre & Miquelon,SPM,77
+102,Malaysia,MYS,77
+103,Tunisia,TUN,77
+104,Thailand,THA,77
+105,Sint Maarten,SXM,77
+106,Algeria,DZA,77
+107,Aruba,ABW,77
+108,Barbados,BRB,76
+109,Montserrat,MSR,76
+110,Latvia,LVA,76
+111,Mayotte,MYT,76
+112,Cabo Verde,CPV,76
+113,Lithuania,LTU,76
+114,Romania,ROU,76
+115,Brazil,BRA,76
+116,Armenia,ARM,76
+117,Bulgaria,BGR,76
+118,U.S. Virgin Islands,VIR,76
+119,Morocco,MAR,76
+120,Brunei Darussalam,BRN,76
+121,Cook Islands,COK,76
+122,Grenada,GRD,76
+123,Mexico,MEX,75
+124,Mauritius,MUS,75
+125,Nicaragua,NIC,75
+126,Bangladesh,BGD,75
+127,Viet Nam,VNM,75
+128,Ukraine,UKR,75
+129,Bahamas,BHS,75
+130,Georgia,GEO,75
+131,Belarus,BLR,75
+132,Azerbaijan,AZE,75
+133,Kazakhstan,KAZ,75
+134,Paraguay,PRY,74
+135,Dominican Republic,DOM,74
+136,Belize,BLZ,74
+137,Suriname,SUR,74
+138,North Korea,PRK,74
+139,Trinidad & Tobago,TTO,74
+140,Bhutan,BTN,74
+141,Russia,RUS,74
+142,Tonga,TON,73
+143,Honduras,HND,73
+144,Libya,LBY,73
+145,Seychelles,SYC,73
+146,American Samoa,ASM,73
+147,Palestine,PSE,73
+148,Saint Lucia,LCA,73
+149,Syria,SYR,73
+150,Guatemala,GTM,73
+151,Venezuela,VEN,73
+152,Uzbekistan,UZB,73
+153,Iraq,IRQ,73
+154,El Salvador,SLV,73
+155,India,IND,72
+156,Saint Kitts and Nevis,KNA,72
+157,Mongolia,MNG,72
+158,Tajikistan,TJK,72
+159,Egypt,EGY,72
+160,Kyrgyzstan,KGZ,72
+161,Samoa,WSM,72
+162,Vanuatu,VUT,72
+163,Western Sahara,ESH,72
+164,Jamaica,JAM,72
+165,Saint Vincent & the Grenadines,VCT,72
+166,Moldova,MDA,71
+167,Dominica,DMA,71
+168,Indonesia,IDN,71
+169,Cambodia,KHM,71
+170,Nepal,NPL,71
+171,Solomon Islands,SLB,71
+172,Guyana,GUY,70
+173,Turkmenistan,TKM,70
+174,Greenland,GRL,70
+175,Niue,NIU,70
+176,Sao Tome and Principe,STP,70
+177,Philippines,PHL,70
+178,Yemen,YEM,70
+179,Palau,PLW,69
+180,Laos,LAO,69
+181,Botswana,BWA,69
+182,Senegal,SEN,69
+183,Eritrea,ERI,69
+184,Mauritania,MRT,69
+185,Bolivia,BOL,69
+186,Uganda,UGA,69
+187,Gabon,GAB,69
+188,Rwanda,RWA,68
+189,Timor-Leste,TLS,68
+190,Pakistan,PAK,68
+191,Ethiopia,ETH,68
+192,Malawi,MWI,68
+193,Namibia,NAM,68
+194,Fiji,FJI,68
+195,Micronesia,FSM,68
+196,Tanzania,TZA,67
+197,Tuvalu,TUV,67
+198,Myanmar,MMR,67
+199,Comoros,COM,67
+200,Marshall Islands,MHL,67
+201,Kiribati,KIR,67
+202,Sudan,SDN,67
+203,Zambia,ZMB,67
+204,Afghanistan,AFG,67
+205,South Africa,ZAF,66
+206,Djibouti,DJI,66
+207,Papua New Guinea,PNG,66
+208,Gambia,GMB,66
+209,Congo,COG,66
+210,Ghana,GHA,66
+211,Haiti,HTI,65
+212,Angola,AGO,65
+213,Guinea-Bissau,GNB,64
+214,Eswatini,SWZ,64
+215,Cameroon,CMR,64
+216,Equatorial Guinea,GNQ,64
+217,Madagascar,MDG,64
+218,Kenya,KEN,64
+219,Burundi,BDI,64
+220,Mozambique,MOZ,64
+221,Zimbabwe,ZWE,63
+222,Togo,TGO,63
+223,Liberia,LBR,62
+224,Nauru,NRU,62
+225,Côte d'Ivoire,CIV,62
+226,DRC,COD,62
+227,Sierra Leone,SLE,62
+228,Niger,NER,62
+229,Burkina Faso,BFA,61
+230,Benin,BEN,61
+231,Guinea,GIN,61
+232,Mali,MLI,61
+233,Somalia,SOM,59
+234,Lesotho,LSO,58
+235,Central African Republic,CAF,58
+236,South Sudan,SSD,58
+237,Chad,TCD,55
+238,Nigeria,NGA,55
