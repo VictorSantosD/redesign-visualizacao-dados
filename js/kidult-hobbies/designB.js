@@ -1,7 +1,9 @@
-
 // Design B - Mapa de calor com as quatro faixas etárias.
 
 document.addEventListener("DOMContentLoaded", async () => {
+
+    const area = d3.select("#caso2-designB");
+    if (area.empty()) return;
 
     // Lê os dados da planilha.
     const dados = await d3.dsv(";", "dados/kidult.csv", d => ({
@@ -12,6 +14,30 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const idades = ["18-34", "35-49", "50-64", "65+"];
     const hobbies = [...new Set(dados.map(d => d.hobby))];
+
+    // Limpa a área para evitar textos repetidos.
+    area.selectAll("*").remove();
+    area.text("");
+
+    // Título e explicações no mesmo estilo usado no outro gráfico.
+    area.append("p")
+        .style("margin", "12px 14px 4px")
+        .style("font-size", "15px")
+        .style("font-weight", "600")
+        .style("color", "#FFFFFF")
+        .text("Kidult Hobbies: percepção dos hobbies por idade");
+
+    area.append("p")
+        .style("margin", "0 14px 12px")
+        .style("font-size", "12px")
+        .style("color", "#FFFFFF")
+        .text("Comparação dos 20 hobbies entre as quatro faixas etárias da pesquisa: 18-34, 35-49, 50-64 e 65+.");
+
+    area.append("p")
+        .style("margin", "-6px 14px 12px")
+        .style("font-size", "12px")
+        .style("color", "#FFFFFF")
+        .text("Cada célula mostra o percentual que considera o hobby infantil. Cores mais intensas indicam percentuais maiores.");
 
     // Tamanho e margens.
     const largura = 950;
@@ -28,7 +54,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const h = altura - margem.top - margem.bottom;
 
     // Cria o SVG.
-    const svg = d3.select("#caso2-designB")
+    const svg = area
         .append("svg")
         .attr("viewBox", `0 0 ${largura} ${altura}`)
         .attr("width", "100%")

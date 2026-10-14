@@ -3,6 +3,9 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
 
+    const area = d3.select("#caso2-designA");
+    if (area.empty()) return;
+
     // Lê os dados da planilha.
     const dados = await d3.dsv(";", "dados/kidult.csv", d => ({
         idade: d["Age Group"],
@@ -29,6 +32,30 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Ordena pelas maiores diferenças.
     comparacao.sort((a, b) => b.diferenca - a.diferenca);
 
+    // Limpa a área para não repetir os textos do HTML.
+    area.selectAll("*").remove();
+    area.text("");
+
+    // Título e explicações no mesmo estilo do Big Mac.
+    area.append("p")
+        .style("margin", "12px 14px 4px")
+        .style("font-size", "15px")
+        .style("font-weight", "600")
+        .style("color", "#FFFFFF")
+        .text("Kidult Hobbies: diferenças entre jovens e idosos");
+
+    area.append("p")
+        .style("margin", "0 14px 12px")
+        .style("font-size", "12px")
+        .style("color", "#FFFFFF")
+        .text("Comparação de 20 hobbies entre britânicos de 18 a 34 anos e pessoas com 65 anos ou mais.");
+
+    area.append("p")
+        .style("margin", "-6px 14px 12px")
+        .style("font-size", "12px")
+        .style("color", "#FFFFFF")
+        .text("Cada ponto mostra o percentual que considera o hobby infantil. Quanto maior a distância entre os pontos, maior a diferença entre as gerações.");
+
     // Tamanho e margens.
     const largura = 1050;
     const altura = 850;
@@ -43,8 +70,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const w = largura - margem.left - margem.right;
     const h = altura - margem.top - margem.bottom;
 
-    // Cria o SVG.
-    const svg = d3.select("#caso2-designA")
+    // Cria o SVG abaixo das explicações.
+    const svg = area
         .append("svg")
         .attr("viewBox", `0 0 ${largura} ${altura}`)
         .attr("width", "100%")
