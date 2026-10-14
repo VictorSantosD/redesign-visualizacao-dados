@@ -1,11 +1,11 @@
 /*
- * Caso 3 — Design B: histograma (D3.js, aulas 06, 09 e 10).
+ * Life Expectancy — Design B: histograma (D3.js, aulas 06, 09 e 10).
  * Entrada: dados/expectativa-distribuicao.csv, gerado pelo DuckDB.
  * DuckDB faz binning de 5 anos e calcula a frequência por intervalo.
  * Tarefa: identificar a concentração/distribuição de países e territórios.
  */
 document.addEventListener("DOMContentLoaded", async () => {
-  const area = d3.select("#caso3-designB");
+  const area = d3.select("#life-expectancy-designB");
   if (area.empty()) return;
 
   try {

@@ -1,4 +1,4 @@
-#Executa DuckDB e gera os CSVs usados nos dois redesigns do caso 3 em D3.js.
+#Executa DuckDB e gera os CSVs usados nos dois redesigns de Life Expectancy em D3.js.
 
 from pathlib import Path
 import os

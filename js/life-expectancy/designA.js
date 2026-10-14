@@ -1,11 +1,11 @@
 /*
- * Caso 3 — Design A: ranking horizontal (D3.js, aulas 08, 09 e 10).
+ * Life Expectancy — Design A: ranking horizontal (D3.js, aulas 08, 09 e 10).
  * Entrada: dados/expectativa-ranking.csv, produzido pelo DuckDB.
  * Tarefa: comparar os 10 maiores e os 10 menores valores de 2025.
  * Escala numérica começa em ZERO (aula 10), igual nos dois painéis.
  */
 document.addEventListener("DOMContentLoaded", async () => {
-  const area = d3.select("#caso3-designA");
+  const area = d3.select("#life-expectancy-designA");
   if (area.empty()) return;
 
   try {

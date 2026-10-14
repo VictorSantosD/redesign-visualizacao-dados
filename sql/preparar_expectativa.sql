@@ -1,4 +1,4 @@
--- Caso 3 — Life Expectancy by Country in 2025
+-- Life Expectancy by Country in 2025
 -- Aula 05: atributo quantitativo (expectativa) e categórico (país/território).
 -- Aula 06: seleção, filtragem, ordenação, binning e agregação.
 -- Execute com: py sql/preparar_expectativa.py (na raiz do repositório).

@@ -1,6 +1,6 @@
 -- Design B - Serie historica do Big Mac Index.
 -- Seleciona os atributos usados no grafico e converte as datas e percentuais.
--- Mantem todos os paises para que o grafico possa ser atualizado depois.
+-- Mantem todos os paises para compor as series historicas selecionadas.
 
 CREATE OR REPLACE TEMP VIEW bigmac_historico AS
 SELECT

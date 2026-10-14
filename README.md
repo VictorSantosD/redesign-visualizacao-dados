@@ -1,25 +1,19 @@
 # Redesign de Visualizações de Dados
 
-Página web simples para os **3 casos** do trabalho. Cada caso apresenta **uma imagem original** e **dois gráficos em D3.js**, totalizando seis redesigns ao final da atividade.
+Aplicação web com três visualizações originais e seis redesigns em D3.js.
 
-## Como executar
+## Visualizações
 
-Abra a pasta no VS Code e use **Live Server** no arquivo `index.html`. Outra opção, no terminal, é executar `py -m http.server 5500` e acessar `http://localhost:5500`. A biblioteca D3.js é carregada pela internet.
-
-## Como cada integrante adiciona sua parte
-
-| Integrante | Arquivos de trabalho | Imagem original |
+| Visualização | Código D3.js | Imagem original |
 | --- | --- | --- |
-| Caso 1 — Big Mac | `js/bigmac/info.js`, `designA.js`, `designB.js` | `imagens/bigmac-original.png` |
-| Caso 2 | `js/caso2/info.js`, `designA.js`, `designB.js` | `imagens/caso2-original.png` |
-| Caso 3 | `js/caso3/info.js`, `designA.js`, `designB.js` | `imagens/caso3-original.png` |
+| Global Big Mac Index | `js/bigmac/` | `imagens/bigmac-original.png` |
+| Kidult Hobbies | `js/kidult-hobbies/` | `imagens/kidult-hobbies-original.png` |
+| Life Expectancy by Country in 2025 | `js/life-expectancy/` | `imagens/life-expectancy-original.webp` |
 
-- No `info.js`, informe o título do caso, a fonte, o link e a imagem original.
-- Nos arquivos `designA.js` e `designB.js`, crie os gráficos D3.js dentro dos respectivos elementos, como `#bigmac-designA` e `#bigmac-designB`.
-- Coloque os arquivos de dados em `dados/` e as consultas DuckDB em `sql/`. **É obrigatório efetivamente usar DuckDB** para consultar, transformar ou validar os dados. As consultas devem ser executadas e documentadas.
-- Não use bibliotecas de visualização de alto nível. Comente os códigos produzidos.
-- A análise crítica, as justificativas dos redesigns e a comparação das soluções pertencem ao **relatório separado**, conforme o enunciado.
+## Executar
 
-**Estado do projeto:** a página e a navegação já funcionam, mas as imagens originais, os seis gráficos e o processamento DuckDB ainda precisam ser inseridos. Nenhum dado fictício foi usado.
+Abra `index.html` com a extensão **Live Server** do VS Code. Alternativamente, execute `py -m http.server 5500` na raiz do projeto e visite `http://localhost:5500/`. É necessária conexão à internet para carregar o D3.js pelo CDN.
 
-**Atenção:** o arquivo `dados/big-mac-full-index.csv` que já foi baixado pelo grupo **não está incluído neste pacote**. Mantenha-o em seu repositório ao copiar a página.
+As visualizações utilizam os CSVs da pasta `dados/`. As consultas e scripts DuckDB para preparação/validação estão na pasta `sql/` e seus resultados CSV já estão incluídos.
+
+O relatório crítico é entregue separadamente.

@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
 
-    const area = d3.select("#caso2-designB");
+    const area = d3.select("#kidult-hobbies-designB");
     if (area.empty()) return;
 
     // Lê os dados da planilha.

@@ -1,7 +1,9 @@
-# Conjuntos de dados
+# Dados utilizados
 
-Guarde nesta pasta os CSV/JSON de cada caso e os resultados produzidos com DuckDB.
+- `big-mac-full-index.csv`: fonte histórica do índice Big Mac.
+- `bigmac-tratado.csv` e `bigmac-historico.csv`: dados tratados para os dois redesigns do Big Mac.
+- `kidult.csv`: pesquisa YouGov sobre hobbies e faixas etárias (separador `;`).
+- `life_expectancy_2025.csv`: dados de expectativa de vida.
+- `expectativa-ranking.csv` e `expectativa-distribuicao.csv`: resultados DuckDB dos redesigns de expectativa de vida.
 
-**Caso 1:** se já tiver baixado `big-mac-full-index.csv`, mantenha esse arquivo aqui. O pacote inicial não inclui uma cópia do seu CSV; não exclua o que já está na sua pasta.
-
-Documente origem, atualização, unidades, colunas escolhidas e eventuais dados ausentes.
+As consultas e scripts de preparação estão em `sql/`.
